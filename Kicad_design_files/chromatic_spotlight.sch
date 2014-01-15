@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:chroma_spotlight
+LIBS:chromatic_spotlight-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "14 jan 2014"
+Date "15 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,7 +65,7 @@ F 1 "SLIDE 1PDT" H 1550 1900 50  0000 C CNN
 F 2 "~" H 1700 2050 60  0000 C CNN
 F 3 "~" H 1700 2050 60  0000 C CNN
 	1    1700 2050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
