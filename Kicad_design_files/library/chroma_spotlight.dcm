@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 1/14/2014 4:45:33 PM
+#
+$CMP XP-E2_LED
+D XLAMP XP-E2 COLOR LEDS
+K XLAMP XP-E2 COLOR LEDS
+F http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf
+$ENDCMP
+#
+#End Doc Library

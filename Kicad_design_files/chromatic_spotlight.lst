@@ -1,0 +1,78 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 1/14/2014 4:35:38 PM
+#Cmp ( order = Reference )
+| C1         0.22uF      ~                   ; ~           ; ~           
+| C2         4.7uF 25V   ~                   ; ~           ; ~           
+| C3         2.2uF 16V   ~                   ; ~           ; ~           
+| C4         0.1uF       ~                   ; ~           ; ~           
+| C5         3.3nF       ~                   ; ~           ; ~           
+| C6         0.22uF      ~                   ; ~           ; ~           
+| C7         4.7uF 25V   ~                   ; ~           ; ~           
+| C8         2.2uF 16V   ~                   ; ~           ; ~           
+| C9         0.1uF       ~                   ; ~           ; ~           
+| C10        3.3nF       ~                   ; ~           ; ~           
+| CON1       POWER_CONN                      ;             ;             
+| D1         LED         ~                   ; ~           ; ~           
+| D2         20V 1A      ~                   ; ~           ; ~           
+| D3         XP-E2_LED   ~                   ; ~           ; ~           
+| D4         XP-E2_LED   ~                   ; ~           ; ~           
+| D5         XP-E2_LED   ~                   ; ~           ; ~           
+| D6         20V 1A      ~                   ; ~           ; ~           
+| D7         XP-E2_LED   ~                   ; ~           ; ~           
+| D8         XP-E2_LED   ~                   ; ~           ; ~           
+| D9         XP-E2_LED   ~                   ; ~           ; ~           
+| L1         22uH 2.2A   ~                   ; ~           ; ~           
+| L2         22uH 2.2A   ~                   ; ~           ; ~           
+| P1         CONN_6                          ;             ;             
+| Q1         MOSFET_N    ~                   ; ~           ; ~           
+| Q2         MOSFET_N    ~                   ; ~           ; ~           
+| R1         499         ~                   ; ~           ; ~           
+| R2         5.1K        ~                   ; ~           ; ~           
+| R3         80.6K       ~                   ; ~           ; ~           
+| R4         10K         ~                   ; ~           ; ~           
+| R5         80.6K       ~                   ; ~           ; ~           
+| R6         10K         ~                   ; ~           ; ~           
+| RV1        100K        ~                   ; ~           ; ~           
+| SW1        SLIDE 1PDT  ~                   ; ~           ; ~           
+| U1         LT3474                          ;             ;             
+| U2         LT3474                          ;             ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 3.3nF        C5        ; ~           ; ~           
+| 3.3nF        C10       ; ~           ; ~           
+| 0.1uF        C4        ; ~           ; ~           
+| 0.1uF        C9        ; ~           ; ~           
+| 0.22uF       C1        ; ~           ; ~           
+| 0.22uF       C6        ; ~           ; ~           
+| 2.2uF 16V    C3        ; ~           ; ~           
+| 2.2uF 16V    C8        ; ~           ; ~           
+| 4.7uF 25V    C2        ; ~           ; ~           
+| 4.7uF 25V    C7        ; ~           ; ~           
+| POWER_CONN   CON1      ;             ;             
+| LED          D1        ; ~           ; ~           
+| 20V 1A       D2        ; ~           ; ~           
+| 20V 1A       D6        ; ~           ; ~           
+| XP-E2_LED    D3        ; ~           ; ~           
+| XP-E2_LED    D7        ; ~           ; ~           
+| XP-E2_LED    D4        ; ~           ; ~           
+| XP-E2_LED    D8        ; ~           ; ~           
+| XP-E2_LED    D5        ; ~           ; ~           
+| XP-E2_LED    D9        ; ~           ; ~           
+| 22uH 2.2A    L1        ; ~           ; ~           
+| 22uH 2.2A    L2        ; ~           ; ~           
+| CONN_6       P1        ;             ;             
+| MOSFET_N     Q1        ; ~           ; ~           
+| MOSFET_N     Q2        ; ~           ; ~           
+| 499          R1        ; ~           ; ~           
+| 5.1K         R2        ; ~           ; ~           
+| 10K          R4        ; ~           ; ~           
+| 10K          R6        ; ~           ; ~           
+| 80.6K        R3        ; ~           ; ~           
+| 80.6K        R5        ; ~           ; ~           
+| 100K         RV1       ; ~           ; ~           
+| SLIDE 1PDT   SW1       ; ~           ; ~           
+| LT3474       U1        ;             ;             
+| LT3474       U2        ;             ;             
+#End Cmp
+
+#End List
