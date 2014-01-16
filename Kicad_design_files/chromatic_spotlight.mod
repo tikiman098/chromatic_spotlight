@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  1/15/2014 9:46:16 PM
+PCBNEW-LibModule-V1  1/16/2014 11:36:01 AM
 # encoding utf-8
 Units mm
 $INDEX
+1,4-20_screw
 BARREL_JACK_2.5mm_pc_pin
 Camera_hole
 LED_cree_xml
@@ -14,6 +15,22 @@ c_0805
 r_0805
 tssop-16-thermal-pad
 $EndINDEX
+$MODULE 1,4-20_screw
+Po 0 0 0 15 52D81855 00000000 ~~
+Li 1,4-20_screw
+Sc 0
+AR 
+Op 0 0 0
+T0 0 7 1 1 0 0.15 N V 21 N "1,4-20_screw"
+T1 0 -7 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 10.16 10.16 0 0 0
+Dr 6.731 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 1,4-20_screw
 $MODULE BARREL_JACK_2.5mm_pc_pin
 Po 0 0 0 15 52D74C30 00000000 ~~
 Li BARREL_JACK_2.5mm_pc_pin
