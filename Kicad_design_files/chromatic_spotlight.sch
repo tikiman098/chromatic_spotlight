@@ -462,4 +462,6 @@ Wire Wire Line
 	3600 3800 3650 3800
 Wire Wire Line
 	3650 3800 3650 3850
+Text Notes 3050 3700 0    60   ~ 0
+psuedo part for camera hole
 $EndSCHEMATC
