@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "15 jan 2014"
+Date "16 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -436,4 +436,30 @@ Text Notes 1650 3900 0    60   ~ 0
 Text Notes 1650 4000 0    60   ~ 0
 0.04375V - 1.25V MAX
 NoConn ~ 1300 3700
+$Comp
+L CONN_1 P?
+U 1 1 52D7555B
+P 3450 3800
+F 0 "P?" H 3530 3800 40  0000 L CNN
+F 1 "CONN_1" H 3450 3855 30  0001 C CNN
+F 2 "~" H 3450 3800 60  0000 C CNN
+F 3 "~" H 3450 3800 60  0000 C CNN
+	1    3450 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52D755C2
+P 3650 3850
+F 0 "#PWR?" H 3650 3850 30  0001 C CNN
+F 1 "GND" H 3650 3780 30  0001 C CNN
+F 2 "" H 3650 3850 60  0000 C CNN
+F 3 "" H 3650 3850 60  0000 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3800 3650 3800
+Wire Wire Line
+	3650 3800 3650 3850
 $EndSCHEMATC

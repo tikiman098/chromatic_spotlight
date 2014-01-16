@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  1/15/2014 1:45:02 PM
+PCBNEW-LibModule-V1  1/15/2014 9:38:47 PM
 # encoding utf-8
 Units mm
 $INDEX
 BARREL_JACK_2.5mm_pc_pin
+Camera_hole
 LED_cree_xml
 LED_right_angle_3mm
 L_8x8mm
@@ -14,7 +15,7 @@ r_0805
 tssop-16-thermal-pad
 $EndINDEX
 $MODULE BARREL_JACK_2.5mm_pc_pin
-Po 0 0 0 15 52D59F0B 00000000 ~~
+Po 0 0 0 15 52D74C30 00000000 ~~
 Li BARREL_JACK_2.5mm_pc_pin
 Cd DC Barrel Jack
 Kw Power Jack
@@ -30,26 +31,42 @@ DS 0.2 3.7 9.2 3.7 0.381 21
 DS 9.2 -10.7 9.2 3.7 0.381 21
 $PAD
 Sh "1" C 3.5 3.5 0 0 2700
-Dr 1 0 0 O 1 1.6
+Dr 1.905 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 4.7 3
 $EndPAD
 $PAD
 Sh "2" C 3.5 3.5 0 0 2700
-Dr 1 0 0 O 1 1.6
+Dr 1.905 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 4.7 -3
 $EndPAD
 $PAD
-Sh "3" C 3.5 3.5 0 0 0
-Dr 1 0 0 O 1 1.6
+Sh "3" C 3.5 3.5 0 0 2700
+Dr 1.905 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE BARREL_JACK_2.5mm_pc_pin
+$MODULE Camera_hole
+Po 0 0 0 15 52D75439 00000000 ~~
+Li Camera_hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7 1 1 0 0.15 N I 21 N "Camera_hole"
+T1 0 -10 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" C 29 29 0 0 0
+Dr 29 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE Camera_hole
 $MODULE LED_cree_xml
 Po 0 0 0 15 52D6C235 00000000 ~~
 Li LED_cree_xml
@@ -225,7 +242,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE PIN_ARRAY-6X1-RA
 $MODULE PTV09A-2
-Po 0 0 0 15 52D5C501 00000000 ~~
+Po 0 0 0 15 52D74DE7 00000000 ~~
 Li PTV09A-2
 Cd log pot right angle
 Kw log pot right angle
@@ -263,15 +280,15 @@ Ne 0 ""
 Po 2.5019 0
 $EndPAD
 $PAD
-Sh "" O 1.8034 4.0132 0 0 0
-Dr 1.8034 0 0 O 1.8034 4.0132
+Sh "" C 2.8448 2.8448 0 0 0
+Dr 2.8448 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
 Po -5.0038 -3.302
 $EndPAD
 $PAD
-Sh "" O 1.8034 4.0132 0 0 0
-Dr 1.8034 0 0 O 1.8034 4.0132
+Sh "" C 2.8448 2.8448 0 0 0
+Dr 2.8448 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
 Po 5.0038 -3.302
